@@ -8,8 +8,12 @@
 
 you need to install poetry
     
-    ```
+```sh
       - pip install poetry
-      - poetry install --no-root
+      - poetry install --no-root 
+      ## or you can just run this
+      - poetry install
       - poetry run linear
-    ```  
+```  
+
+> this will be updated with each task
