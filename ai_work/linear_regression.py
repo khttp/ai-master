@@ -1,13 +1,8 @@
 import numpy as np
-
 import pandas as pd
-
 import matplotlib.pyplot as plt
-
 from sklearn.model_selection import train_test_split
-
 from sklearn.linear_model import LinearRegression
-
 from sklearn.metrics import mean_squared_error, r2_score
 
 
@@ -28,7 +23,7 @@ def preprocess_data(data: pd.DataFrame):
 
     """Split data into features and target."""
 
-    X = data[['YearsExperience']]
+    X = pd.DataFrame(data[['YearsExperience']])
 
     y = data['Salary']
 

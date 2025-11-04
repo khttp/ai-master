@@ -17,6 +17,7 @@ dependencies = [
 
 [tool.poetry.scripts]
 linear = "ai_work.linear_regression:start"
+logistic = "ai_work.logistic_regression:start"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
