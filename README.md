@@ -39,4 +39,7 @@
 ```
 
 
-> this will be updated with each task
+## to run the ANN and CNN 
+ 
+  - [artifitial neural network ANN colab file ](https://colab.research.google.com/drive/11Lhr5G6yQ9lBZHtNkUVXPYtt1tzYihCy#scrollTo=cZmqqhTqM70f)
+  - [Convolutional neural network CNN colab file ](https://colab.research.google.com/drive/1N5ueLF2phDZW-PvrCWFY1jq__9zO5r3X)
