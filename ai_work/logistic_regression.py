@@ -76,7 +76,6 @@ def start():
     data = encode_gender_column(data)
     X, y = preprocess_data(data)
      
-    print(X,y)
     X, y = preprocess_data(data)
     X_train, X_test, y_train, y_test = split_data(X,y)
     X_train_scaled, X_test_scaled = scale_features(X_train, X_test)

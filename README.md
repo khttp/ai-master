@@ -23,5 +23,20 @@
     - poetry run logistic
 ```
 
+- to run Decision tree
+```sh
+    - poetry run dtree
+```
+
+- to run SVM
+```sh
+    - poetry run svm
+```
+
+- to run k-means
+```sh
+    - poetry run kmean
+```
+
 
 > this will be updated with each task

@@ -7,17 +7,18 @@ authors = [
     {name = "abdelrahman khattab",email = "abdelrahmankhattab9999@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = [
-    "numpy (>=2.3.4,<3.0.0)",
-    "scikit-learn (>=1.7.2,<2.0.0)",
-    "pandas (>=2.3.3,<3.0.0)",
-    "matplotlib (>=3.10.7,<4.0.0)"
-]
+requires-python = ">=3.11,<4.0" 
+[tool.poetry.dependencies]
+scikit-learn = "^1.7.2"
+pandas = "^2.3.3"
+matplotlib = "^3.10.7"
 
 [tool.poetry.scripts]
 linear = "ai_work.linear_regression:start"
 logistic = "ai_work.logistic_regression:start"
+dtree = "ai_work.decision_tree:start"
+svm = "ai_work.SVM:start"
+kmeans = "ai_work.k-means:start"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
